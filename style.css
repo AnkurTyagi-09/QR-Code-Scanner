@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #E3F2FD, #0B85FF);
+}
+
+.wrapper {
+    width: 400px;
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.wrapper form {
+    padding: 20px;
+    border: 2px dashed #0B85FF;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.wrapper form i {
+    font-size: 50px;
+    color: #0B85FF;
+}
+
+.wrapper form p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.details textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: none;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.buttons button {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    background: #0B85FF;
+    color: white;
+    transition: 0.3s;
+}
+
+.buttons button:hover {
+    opacity: 0.8;
+}
